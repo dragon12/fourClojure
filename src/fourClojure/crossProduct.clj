@@ -1,0 +1,1 @@
+(#(apply + (flatten (map (fn [outerElement] (map (fn [v] (* v outerElement)) %2)) %1))) [0 1 0] [1 0 0])
